@@ -1,0 +1,16 @@
+{
+  "name": "minecraft-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord completo para comunidades Minecraft",
+  "type": "module",
+  "main": "src/main.mjs",
+  "scripts": {
+    "start": "node src/main.mjs",
+    "dev": "node --watch src/main.mjs"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mongoose": "^8.0.3",
+    "minecraft-server-util": "^5.4.4"
+  }
+}
